@@ -1,19 +1,36 @@
 html{
     font-family: fantasy;
+    background-color: rgba(3, 3, 3, 0.8);
 }
 
 p {
     color:lime;
 }
-ul p{
+ul li{
     color:blueviolet;
 }
-ul p:nth-child(3){
+ul li:nth-child(3){
     font-size:30px;
 }
-.titly {
+.title {
     color:darkmagenta;
+    text-align: center;
+    border-bottom: solid crimson 25px;
 }
 #iddy{
-    background-color: crimson;
+    text-align: center;
+    font-size: 35px;
+    color:whitesmoke;
+}
+#iddy:hover{
+    color:black;
+    background-color: tomato;
+}
+.left{
+    text-align: left;
+    background-color: wheat;
+}
+.right{
+    text-align: right;
+    background-color: violet;
 }
