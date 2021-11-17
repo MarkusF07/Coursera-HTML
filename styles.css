@@ -1,21 +1,31 @@
 html{
-    font-family: fantasy;
+    font-family: 'Roboto', sans-serif;
     background-color: rgba(3, 3, 3, 0.8);
 }
 
 p {
     color:lime;
 }
+ul{
+    text-align: center;
+    padding-left: 0;
+}
 ul li{
     color:blueviolet;
+    list-style:none;
+    font-size: 5vh;
+    font-variant: small-caps;
 }
 ul li:nth-child(3){
-    font-size:30px;
+    opacity: 0.5;
 }
+
 .title {
     color:darkmagenta;
     text-align: center;
     border-bottom: solid crimson 25px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
 }
 #iddy{
     text-align: center;
