@@ -1,4 +1,19 @@
+html{
+    font-family: fantasy;
+}
+
 p {
     color:lime;
-
+}
+ul p{
+    color:blueviolet;
+}
+ul p:nth-child(3){
+    font-size:30px;
+}
+.titly {
+    color:darkmagenta;
+}
+#iddy{
+    background-color: crimson;
 }
