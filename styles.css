@@ -3,12 +3,15 @@ html{
     background-color: rgba(3, 3, 3, 0.8);
 }
 
-p {
-    color:lime;
+p{
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 5vh;
 }
 ul{
     text-align: center;
     padding-left: 0;
+    height: 35vh;
 }
 ul li{
     color:blueviolet;
@@ -16,12 +19,17 @@ ul li{
     font-size: 5vh;
     font-variant: small-caps;
 }
+ul li:hover{
+    color: rgb(101, 32, 167);
+    font-size: 6vh;
+}
 ul li:nth-child(3){
     opacity: 0.5;
 }
 
 .title {
     color:darkmagenta;
+    font-size: 5vh;
     text-align: center;
     border-bottom: solid crimson 25px;
     padding-bottom: 20px;
