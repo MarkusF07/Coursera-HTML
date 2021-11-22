@@ -1,8 +1,10 @@
 html{
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(3, 3, 3, 0.8);
+    /*background-color: rgba(3, 3, 3, 0.8);*/
 }
-
+body{
+    background: url(/images/background1.jpg) no-repeat center center fixed;
+}
 p{
     text-align: center;
     font-variant: small-caps;
@@ -54,5 +56,5 @@ ul li:nth-child(3){
 }
 .container {
     margin: 5% 5% 5% 5%;
-    background-color: rgba(80, 12, 12, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
 }
