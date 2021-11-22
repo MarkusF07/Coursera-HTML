@@ -4,6 +4,7 @@ html{
 }
 body{
     background: url(/images/background1.jpg) no-repeat center center fixed;
+    margin: 0;
 }
 p{
     text-align: center;
@@ -36,6 +37,9 @@ ul li:nth-child(3){
     border-bottom: solid crimson 25px;
     padding-bottom: 20px;
     text-transform: uppercase;
+    background-color: white;
+    margin-top: 0;
+    padding-top: 15px;
 }
 #iddy{
     text-align: center;
