@@ -3,7 +3,7 @@ html{
     /*background-color: rgba(3, 3, 3, 0.8);*/
 }
 body{
-    background: url(/images/background1.jpg) no-repeat center center fixed;
+    background: url(images/background1.jpg) no-repeat center center fixed;
     margin: 0;
 }
 p{
