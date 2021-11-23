@@ -30,47 +30,50 @@ ul li:hover{
     color: rgb(101, 32, 167);
     font-size: 6vh;
 }
-
+header {
+    position: fixed;
+    top: 0;
+}
 .title {
-    color:darkmagenta;
+    color:#313638;
     font-size: 5vh;
-    text-align: center;
-    border-bottom: solid crimson 25px;
+    border-bottom: solid #313638 15px;
     padding-bottom: 20px;
-    text-transform: uppercase;
-    background-color: white;
-    margin-top: 0;
-    padding-top: 15px;
+    margin:0;
+    font-variant: small-caps;
+    background-color: #fff9fb;
+    padding: 15px 0 0 10px;
+    min-width: 100vw;
 }
 .containerS1 {
     margin: 0% 5% 0% 5%;
-    background-color: #d8d5dbe5;
+    background-color: #fff9fbee;
     padding: 2vh 1vh 2vh 1vh;
 }
 .containerS1 h2 {
     margin: 0 0 20px 0;
     padding: 0 0 0 16px;
     text-align: left;
-    background-color: #0AD3FF;
+    background-color: #4472CA;
     
 }
 .containerS1 h2:hover {
-    color:#71D4ED;
+    color:#3B5481;
 }
 .containerS2 {
     margin: 0% 5% 0 5%;
-    background-color: #d8d5dbe5;
+    background-color: #fff9fbee;
     padding: 2vh 1vh 2vh 1vh;
 
 }
 .containerS2 h2 {
-    margin: 0 0 20px 0;
+    margin: 0 0 2000px 0;
     padding: 0 16px 0 0;
     text-align: right;
-    background-color: #0AD3FF;
+    background-color: #4472CA;
 }
 .containerS2 h2:hover {
-    color:#71D4ED;
+    color:#3B5481;
 }
 a {
     overflow-wrap: break-word;
